@@ -1,0 +1,32 @@
+[
+  {
+    "name": "Bird Ramsey",
+    "login": "Bird",
+    "email": "birdramsey@nimon.com",
+    "password": "12345"
+  },
+  {
+    "name": "Lillian Burgess",
+    "login": "Lillian",
+    "email": "lillianburgess@luxuria.com",
+    "password": "12345"
+  },
+  {
+    "name": "Kristie Cole",
+    "login": "Kristie",
+    "email": "kristiecole@quadeebo.com",
+    "password": "123"
+  },
+  {
+    "name": "Leonor Cross",
+    "login": "Leonor",
+    "email": "leonorcross@gronk.com",
+    "password": "12345"
+  },
+  {
+    "name": "Marsh Mccall",
+    "login": "Marshal",
+    "email": "marshmccall@ultrimax.com",
+    "password": "12345"
+  }
+]

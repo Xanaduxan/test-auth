@@ -1,0 +1,15 @@
+header {
+  display: flex;
+  justify-content: space-around;
+  height: 200px;
+  background-color: bisque;
+}
+a {
+  padding: 50px;
+  font-size: 20px;
+  text-decoration: none;
+  color: rgb(79, 96, 52);
+}
+a:hover {
+  color: rgb(8, 169, 69);
+}
