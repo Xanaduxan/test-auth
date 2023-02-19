@@ -34,7 +34,7 @@ const Login = ({ setAuth, users }) => {
     <div className="login-form-container">
       <form className="login-form" onSubmit={loginSubmit}>
         <h1>Авторизуйтесь:</h1>
-        <label for="login">Введите логин </label>
+        <label htmlFor="login">Введите логин </label>
         <input
           name="login"
           type="text"
@@ -43,7 +43,7 @@ const Login = ({ setAuth, users }) => {
           value={login}
           onChange={handleLogin}
         />
-        <label for="password">Введите пароль </label>
+        <label htmlFor="password">Введите пароль </label>
         <input
           name="password"
           type="text"

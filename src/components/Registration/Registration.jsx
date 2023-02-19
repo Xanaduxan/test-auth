@@ -48,7 +48,7 @@ const Registration = ({ auth, setAuth, users }) => {
     <div className="registration-form-container">
       <form className="registration-form" onSubmit={formSubmit}>
         <h1>Зарегистрируйтесь: </h1>
-        <label for="name">Введите имя </label>
+        <label htmlFor="name">Введите имя </label>
         <input
           name="name"
           type="text"
@@ -57,7 +57,7 @@ const Registration = ({ auth, setAuth, users }) => {
           value={name}
           onChange={nameHandler}
         />
-        <label for="login">Введите логин </label>
+        <label htmlFor="login">Введите логин </label>
         <input
           name="login"
           type="text"
@@ -67,7 +67,7 @@ const Registration = ({ auth, setAuth, users }) => {
           onChange={loginHandler}
         />
         {statusLogin && <div className="error">{errorLogin}</div>}
-        <label for="password">Введите пароль </label>
+        <label htmlFor="password">Введите пароль </label>
         <input
           name="password"
           type="password"
@@ -76,7 +76,7 @@ const Registration = ({ auth, setAuth, users }) => {
           value={password}
           onChange={passwordHandler}
         />
-        <label for="repeat-password">Повторите пароль </label>
+        <label htmlFor="repeat-password">Повторите пароль </label>
         <input
           name="repeat-password"
           type="password"
